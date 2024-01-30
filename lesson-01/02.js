@@ -5,3 +5,5 @@ if (number1%2===0) {
 } else {
     console.log(number1 + ":Это нечетное число");
 }
+number1%2
+
