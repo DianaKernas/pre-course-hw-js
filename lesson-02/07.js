@@ -10,17 +10,5 @@ let passportMarried = {
         city: "Bobryisk"
     }
 };
-// let passportMarried2 = { ... married: true, address: { ... } }
-// passportMarried2.married = true
-
-// console.log(passportMarried);
-// console.log(passportMarried2);
-
-// Для того, чтобы проверить правильность данного задания должно быть выведено 2 console.log
-
-// Выводи в консоль первый и второй объект целиком
-
-// Не нужно использовать функции и другие хитрые подходы, просто:
-
 
 

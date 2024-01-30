@@ -11,13 +11,4 @@ let passportWithAddress = {
         country: "USA",
         city: "LA"
     }
-};
-// console.log(address.city)
-
-// let info = address;
-// //let data.info = passportWithAddress.address;
-// info.city="Bobryisk";
-// console.log(info.city);
-
-//Для того, чтобы проверить правильность данного
-//задания должно быть выведено 2 console.log
+}
