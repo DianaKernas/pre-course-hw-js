@@ -7,11 +7,11 @@ let passport = {
     name: "Petr",
     surname: "Petrov",
 };
-console.log(passport.name + passport.surname)
+console.log(passport.name + " " + passport.surname)
 
 let data = passport;
 data.name="Ivan";
-console.log(data.name + data.surname)
+console.log(data.name + " " + data.surname)
 
 //Для того, чтобы проверить правильность данного
 //задания должно быть выведено 2 console.log
