@@ -8,6 +8,6 @@ function createColorString(parameter) {
     const test = parameter => parameter === "черный" || parameter === "красный" || parameter === "желтый" ;
     return colors.filter(test).join('-');
 
-};
+}
 
 console.log(createColorString(colors.length));
