@@ -4,10 +4,10 @@
 //такое ||- это пригодится для условия в методе filter()
 const colors = ["синий", "черный", "зеленый", "красный", "желтый", "зеленый"];
 
-function createColorString() {
-    const color = parameter => parameter === "черный" || parameter === "красный" || parameter === "желтый" ;
-    return colors.filter(color).join('-');
+function createColorString(color) {
+    color = parameter => parameter === "черный" || parameter === "красный" || parameter === "желтый" ;
+    return colors.filter(color).join('-')
 
 }
 
-console.log(createColorString(colors));
+console.log(createColorString());
