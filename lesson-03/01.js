@@ -5,7 +5,7 @@
 const colors = ["синий", "черный", "зеленый", "красный", "желтый", "зеленый"];
 
 function createColorString(parameter) {
-    const test = parameter => parameter == "черный" || parameter == "красный" || parameter == "желтый" ;
+    const test = parameter => parameter === "черный" || parameter === "красный" || parameter === "желтый" ;
     return colors.filter(test).join('-');
 
 };
