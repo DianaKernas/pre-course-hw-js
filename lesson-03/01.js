@@ -10,4 +10,5 @@ function createColorString(color) {
 
 }
 
-console.log(createColorString());
+
+console.log(createColorString(colors));
