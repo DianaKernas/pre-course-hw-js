@@ -61,7 +61,7 @@ const users = [
     }
 ];
 
-let person = users.filter(number =>
+const person = users.filter(number =>
 {return number.id%2 === 0;
 })
 
