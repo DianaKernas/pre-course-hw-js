@@ -1,7 +1,7 @@
 // Дан массив с фруктами
 
 const fruits = ["яблоко", "банан", "апельсин", "манго", "киви", "ананас", "виноград", "груша", "слива", "персик"];
-let citrus = fruits.slice(1, 8, 9);
+const citrus = fruits.slice(1, 8, 9);
 console.log(citrus)
 
 
