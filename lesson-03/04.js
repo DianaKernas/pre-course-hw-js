@@ -62,7 +62,7 @@ const users = [
 ];
 
 const person = users.filter(number =>
-{return number.id%2 === 0;
+{return number.id % 2 === 0;
 })
 
 console.log(person)
