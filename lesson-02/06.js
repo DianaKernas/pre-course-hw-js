@@ -1,22 +1,24 @@
-// Давайте-ка нашего парня, чтобы он не //зазнавался переселим
-// в ‘city’ 'Bobryisk' , а потом опять же убедимся в консоли,
-// что мы все правильно скопировали. (Т.е. необходимо создать
-// глубокую копию объекта passportWithAddress,
-// а затем 'LA' заменить на 'Bobryisk' в city).
+/Ну и вишенка на торт: раз наш парень оказался
+//«в нужное время в нужном месте», пора бы его женить):
+//Под surname добавь married: true. И разумеется проверь, что женат только один парень… (Т.е. необходимо создать глубокую копию объекта passportMarried , и добавить в него новый ключ: значение).
 
-let passportWithAddress = {
+let passportMarried = {
     name: "Petr",
     surname: "Petrov",
     address: {
         country: "USA",
-        city: "LA"
+        city: "Bobryisk"
     }
 };
-console.log(passportWithAddress.address.city);
 
-let infoAboutPerson = { ... passportWithAddress };
-infoAboutPerson.address.city="Bobryisk";
-console.log(infoAboutPerson.address.city);
+let passportMarried2 = { ...passportMarried , married: true, address: { ...passportMarried.address} }
+passportMarried2.married = true
 
-//Для того, чтобы проверить правильность данного
-//задания должно быть выведено 2 console.log
+console.log(passportMarried);
+console.log(passportMarried2);
+
+// Для того, чтобы проверить правильность данного задания должно быть выведено 2 console.log
+// Выводи в консоль первый и второй объект целиком
+// Не нужно использовать функции и другие хитрые подходы, просто:
+
+
