@@ -32,14 +32,13 @@ const users3 = [
 ];
 
 // for (let i = 0; i < users3.length; i++) {
-//     let n = users3[i].;
-    
+//     let n = users3[i];
 //    { return n }
 // }
 
+let newArr = users3.map(v => ({...v, isMarried: true}))
 
-
-console.log(users3)
+console.log(newArr)
 
 // Пора всех жителей массива users3 женить. Добавь 
 //в каждый объект ключ-значение isMarried: true. 
