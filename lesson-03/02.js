@@ -5,7 +5,7 @@
 // Кавычки в массиве должны быть двойными..
 
 const words = ["яблоко", "банан", "апельсин", "манго", "киви"]
-let element = "апельсин";
+let element = 'апельсин';
 if(words.indexOf(element)){
     console.log('Ура! нашел')
 }
